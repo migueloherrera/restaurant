@@ -68,3 +68,57 @@ table {
 
 /* STARTS HERE */
 
+body {
+  background: #C88B11;
+  padding: 15px;
+  text-align: center;
+}
+
+#banner img {
+  width: 70%;
+  height: auto;
+}
+
+h1 {
+  font-size: 3em;
+  color: #FFFF00;
+  padding: 20px 0;
+}
+
+/* TABS */
+
+#tabs {
+  width: 50%;
+  height: 80px;
+  margin: 0 auto;
+  background: #;
+}
+
+.tab {
+  float: left;
+  padding: 5px 30px;
+  background: #FFBA00;
+  color: #663300;
+  font-size: 2em;
+}
+
+#tabs li:hover {
+  background: #663300;
+  color: #FFBA00;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#tab1, #tab2, #tab3 {
+  font-family: arial, sans-serif;
+  line-height: 1.5;
+  color: #663300;
+  font-size: 1.3em;
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
